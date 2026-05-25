@@ -1,0 +1,63 @@
+/*File: main.css
+GUI Assignment: The CSS section of creating my first website to design the images, links, text, and sections . 
+Derek Garcia, UMass Lowell Computer Science, Derek_GarciaRodriguez@student.uml.edu
+Copyright (c) 2026 by Derek. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+updated by DG on May 24, 2026 at 3:31 AM
+*/
+/*Text Style*/
+html {
+  font-size: 22px;
+}
+h2 {
+  text-decoration: underline;
+  text-decoration-color: #eee;
+}
+/*The Pages Background and Text*/
+body {
+  background-image: url("../img/a.webp");
+  background-position: center;
+  color: whitesmoke;
+}
+/*The Table of Content section*/
+table,
+tr,
+th,
+td,
+caption {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #eee;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+/*The external/internal links*/
+a {
+  color: aliceblue;
+}
+
+a:visited {
+  color: rgb(255, 0, 0);
+}
+
+a:hover,
+a:active {
+  color: #eee;
+}
+/*Position and Size of the Photos*/
+img {
+  border: 3px solid maroon;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+.side-image {
+  max-width: 1000px;
+}
