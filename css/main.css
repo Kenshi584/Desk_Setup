@@ -14,7 +14,7 @@ h2 {
 }
 /*The Pages Background and Text*/
 body {
-  background-image: url("/img/a.webp");
+  background-image: url("../img/a.webp");
   background-position: center;
   color: whitesmoke;
 }
